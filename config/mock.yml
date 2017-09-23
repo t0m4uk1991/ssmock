@@ -1,0 +1,19 @@
+mocks:
+  - name: 'service1'
+    port: 33666
+    endpoints:
+      - endpoint: '/test1'
+        payload: 'example1.json'
+        method: get
+      - endpoint: '/test2'
+        payload: 'example2.json'
+        method: post
+  - name: 'service2'
+    port: 33667
+    endpoints:
+      - endpoint: '/test1'
+        payload: 'example1.json'
+        method: get
+      - endpoint: '/test2'
+        payload: 'example2.json'
+        method: post
